@@ -3,6 +3,8 @@ ESP32 transmitter (remote) and ESP32 receiver (PC interface) for dual‑monitor 
 
 ## Files Overview
 
+DOWNLOAD file named ESP32
+
 - **receiver.py**  
   Listens to commands from the ESP32 receiver via serial port and launches VLC to play reinforcement videos.
 
@@ -14,3 +16,5 @@ ESP32 transmitter (remote) and ESP32 receiver (PC interface) for dual‑monitor 
 
 - **start_receiver.vbs**  
   VBScript wrapper to run the batch file silently (no console window).
+
+DONWLOAD IDE file named ESP_NOW_RECEIVER, upload into ESP32 which will acts as receiver on local (connected to COMM port)
